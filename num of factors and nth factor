@@ -1,0 +1,24 @@
+import java.util.*;
+class trial
+{
+public static void main( String args[])
+{
+int num,n,x=0,i;
+int fac[]=new int[50];
+Scanner s=new Scanner(System.in);
+System.out.println(o"enter the number: ");
+num=s.nextInt();
+for(i=1;i<=num;i++)
+{
+if(num%i==0)
+{
+fac[x]=i;
+x++;
+}
+}
+System.out.println("number of factors: "+x);
+System.out.println("enter any value: ");
+n=s.nextInt();
+System.out.println(n+"th factor of num: "+(fac[n-1]));
+}
+}
