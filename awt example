@@ -1,0 +1,18 @@
+import javaX.swing.*;
+import java.awt.*;
+class awtexample
+{
+Frame f=new Frame("first");
+f.setSize(400,600);
+f.setVisible(true);
+Panel p=new Panel();
+Button b1=new Button("yes");
+p.add(b1);
+Button b2=new Button("no");
+p.add(b2);
+Label l1=new Label("Enter ur name");
+p.add(l1);
+Checkbox c=new Checkbox("yes");
+p.add(b1);
+Button b1=new Button("yes");
+p.add(b1);
