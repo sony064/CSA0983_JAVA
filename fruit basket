@@ -1,0 +1,36 @@
+import java.util.*;
+class apple 
+{
+int x=23;
+public void display1()
+{
+System.out.println("number of apples: "+x);
+}
+}
+class mango extends apple
+{
+int y=16;
+public void display2()
+{
+System.out.println("number of mangoes: "+y);
+}
+}
+class group extends mango
+{ 
+int z;
+public void display()
+{
+z=x+y;
+System.out.println("number of fruits: "+z);
+}
+}
+class basket
+{
+public static void main(String args[])
+{
+group C=new group();
+C.display2();
+C.display1();
+C.display();
+}
+}
